@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title> Patient Registration </title>
+	
+	<link href="mystyle.css" type="text/css" rel="stylesheet">
+	
+</head><body>
+<div class="top">
+    Contact Us +91 9697982520 / 01 | Maanhospital.com 
+    </div>
+<div class="logo">
+        <img src="img/logo.jpg" height="140px" width="260px" align=left margin-top="-5px">   
+        <ul align=center><font color=#green size="6px">
+            <li> Maan Hospital Patiala     </li>
+            Bawanigrah Road Patiala Punjab   
+        </font></ul></div>
+    <div class="menu" >
+    <span>Maan Hospital</span>
+    <ul>
+                            <li><a href="index.html">HOME                      </a>                </li>
+							<li><a href="about.html" >ABOUT US    </a>                </li>
+							<li><a href="service.html">SERVICE   </a>                </li>
+							<li><a href="service.html">DOCTORS                   </a>               </li>
+							<li><a href="contact.html">CONTACT US               </a>               </li>
+   </ul>
+		</div>			
+		<div class="side">
+		    <ul>
+		        <li><a href="patient.html">   Patient                     </a></li>
+		        <li><a href="bill.html">      Bill Payment                </a></li>
+		        <li><a href="detail.html">    Details                     </a></li>
+
+		    </ul></div>
+		    <div class="patientform">
+		   <fieldset border=3px>
+		   <legend>
+		   Patient Registration Form</legend>
+        <form  action="patient.php" method="post" align=center><font size="18px">
+<table align=center width=750px  >
+<tr><td>
+Reg No:</td><td>
+        <input type="number" name="reg" required placeholder="Reg. NO"  maxlength="6" ></td></tr><tr><td>
+Full Name:</td><td>
+            <input type="text" name="fname" required placeholder="FULL NAME"  maxlength="20"></td></tr><tr><td>
+Father Name:</td><td>
+        <input type="text" name="fathername" required placeholder="GARDIAN'S NAME"  maxlength="20"></td></tr><tr><td>
+Address:</td><td>
+        <input type="text" name="address" required placeholder="Village-District-State" maxlength="40"></td></tr><tr><td>
+Date of Birth:</td><td>
+            <input type="date" name="dob" value="2020-01-24" required placeholder="Date OF BIRTH" min="1990-01-01" max="2020-01-31"></td></tr><tr><td>
+Department:  </td><td>
+              <select NAME = "dept">
+                    <option value="General">General</option>
+                    <option value="Pharmacologist">Pharmacologist</option>
+                    <option value="Neurologist">Neurologist</option>
+                    <option value="Cardiologist">Cardiologist</option>
+                    <option value="Dermatologist">Dermatologist </option>
+                    <option value="Ophthalmology">Ophthalmology</option>
+                    <option value="Gynecologist">Gynecologist</option>          
+            </select></td></tr><tr><td>
+About Disease:</td><td>
+            <input type="textarea" name="aboutdisease" required placeholder="Something About Disease" maxlength="80">
+         </td></tr><tr><td>
+
+
+
+ Gender: </td><td>
+           <input type="radio" name="gender" value="male" checked> Male
+           <input type="radio" name="gender" value="female"> Female
+           <input type="radio" name="gender" value="other"> Other<br>
+  </td></tr></table>
+            <input type="submit" name="add" value="Register">
+          </font>
+</form>
+  
+		   
+		   
+		   
+		   </fieldset>
+		   </div>
+		   
+		   
+		   
+    <div class="footer">
+                  <table  cellspacing=20px font color=white align=center><tr><td>
+                    <font color=white size=4px>
+                    <h3>Locate Us</h3><b> 
+                  NH - 7, Near Patiala .<br>
+                  Vill. XYZ,<br>
+                  Tehsil. Patiala (M)<br>
+                  District Patiala,<br>
+                  Pin 147001, (Punjab)
+                  </b></font></td>
+                                        <td>
+                                        <font color=white size="4px">
+                                            <b> <h3>Time Table</h3>
+                                        Our activities24/7 Open<br>
+                                        Visitors09:00am - 04:00pm<br>
+                                        Dispensary24/7 Open<br>
+                                        Ambulance24/7 Open<br>
+                                        Security team  24/7
+                                        </b></font><td></tr></table>
+              <h5 align=left> Website Developed by : MAZ. Contents are being provided by Maan Hospital </h5>                
+    </div>
+</body>
+</html>

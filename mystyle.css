@@ -1,0 +1,322 @@
+body{
+    background-color:tan;
+    font-size:20px;
+    
+}
+.top{
+    text-align:center;
+    width:98%;
+    height:12px;
+	background-color:#2FA5EB;
+	border-bottom:2px solid #f0f0f0; 
+	color:#fff;
+	font-family:verdana;
+	padding:10px;
+	margin-top:-10px;
+}
+.logo{
+    background-color:purple;
+    margin-top:-1px;
+    height:140px;
+    border:3px solid blue;
+    width:100%;
+ 
+}
+.logo ul{
+    margin-top:20px;
+    text-align:center;
+  
+       list-style-type:none;
+     
+}
+.logo ul li{
+    display:block;
+}
+.logo ul li{
+      font-size:60px;
+    text-decoration:none;
+}
+.menu{
+       font-size:32px;
+       font-family:cursive;
+       color:salmon;
+       text-align:center;
+       margin-top:-2px;
+       border:3px solid green;
+       height:45px;
+       background-color:silver;
+       width:100%;
+
+}
+.menu span{
+color:blue;
+font-size:45px;
+margin-top:-3px;
+font-weight:bold;
+font-family:mistral;
+}
+.menu ul{
+    float:right;
+    text-align:right;
+    list-style-type:none;
+ margin-top:-2px;
+margin-right:20px;
+}
+.menu ul li{
+    
+       display:inline-block;
+       }
+.menu li a{
+    margin-left:4px;
+    
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+       color:white;
+      
+    border:2px solid maroon;
+       
+       background-color:maroon;
+}
+.side{
+    float:left;
+    text-align:left;
+	margin-top:0px;
+    height:350px;
+    width:165px;
+    border-right:3px solid green;
+    background-color:silver;
+
+}
+.side ul{
+    float:left;
+    text-align:left;
+    list-style-type:none;
+    margin-top:30px;
+}
+.side ul li{
+    margin-top:20px;
+    margin-left:-25px;
+}
+.side ul li a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    border:2px solid maroon;
+    background-color:maroon;
+}
+ul li a:hover {
+  background-color: gray;
+  color:green;
+}
+.main{
+margin-right:-5px;
+margin-left:170px;
+}
+table{
+    text-align:center;
+}
+.footer{
+    background-color:#4F4E4D;
+      position:static;
+      width:100%;
+      margin-top:24px;
+      margin-right:1px;
+      margin-left:1px;
+      margin-bottom:1px;
+}
+/*patient-form*/
+
+
+.patientform{
+    font-size:14px;
+    margin-right:210px;
+    height:1100px;
+    margin-right:10px;
+}
+.patientform fieldset{
+    height:1000px;
+}
+
+fieldset{
+    width:70%;
+    height:800px;
+}
+.patientform td{
+    font-size:34px;
+    text-align:left;
+}
+
+input[type=text] {
+   margin-right:3px;
+    width:380px;
+    height:50px;
+  border: 3px solid teal;
+  font-size:20px;
+  float:right;
+
+}
+input[type=number] {
+   margin-left:40px;
+    width:380px;
+    height:50px;
+  border: 3px solid teal;
+  font-size:20px;
+  float:right;
+}
+
+select {
+width:380px;
+padding:12px;
+background-color:white;
+border:2px solid teal;
+font-size:18px;
+float:right;
+  border-radius:15px;
+}
+input[type=textarea] {
+   margin-right:3px;
+    width:380px;
+    height:150px;
+  border: 3px solid teal;
+  font-size:20px;
+  float:right;
+    border-radius:15px;
+}
+input[type=date] {
+   margin-right:3px;
+    width:380px;
+    height:50px;
+  border: 3px solid teal;
+  font-size:20px;
+  float:right;
+}
+input[type=radio] {
+    margin-right:3px;
+    width:30px;
+    height:30px;
+  border: 5px solid teal;
+  font-size:30px;
+}
+input[type=submit] {
+    BACKGROUND-COLOR:BLUE;
+   margin-top:50px;
+    width:210px;
+    height:60px;
+  border: 5px solid green;
+  font-size:40px;
+  border-radius: 15px;
+}
+h6{
+    font-size:30px;
+}
+/*Detail Page*/
+.detail{
+   height:1100px;   
+}
+.detail input[type=submit] {
+    BACKGROUND-COLOR:BLUE;
+   margin-right:1px;
+    width:200px;
+    height:60px;
+  border: 5px solid gold;
+  font-size:40px;
+  border-radius: 15px;
+  float:right;
+  margin-top:5px;
+}
+
+/*About Page */
+
+.about{
+    margin-top:1px;
+ height:1100px;  
+     font-size:20px;
+}
+.about0{
+   text-align:center;
+   margin-top:20px;
+}
+.about1{
+    font-size:24px;
+    height:340px;
+    width:220px;
+    float:left;
+    border:3px solid brown;
+    background-color:black;
+    color:white;
+   margin-top:10px;
+}
+.about1 li{
+    margin-top:30px;
+   
+}
+.about2{
+    float:right;
+    width:700px;
+    text-align:left;
+    border:3px solid brown;
+   margin-top:10px;
+    
+}
+.about2 td{
+    background-color:white;
+    width:250px;
+    padding:0px;
+    font-size:14px; 
+    text-align:left;
+}
+
+/*Services page*/
+
+.service{
+ text-align:center;
+ height:1200px;
+}
+u{
+    color:tan;
+    background-color:black;
+}
+.service1{
+    width:300px;
+    text-align:left;
+    float:left;
+    margin-left:100px;
+    margin-top:-40px;
+    height:350px;
+
+}
+.service ul li{
+    font-weight:100;  
+    margin-top:7px;
+}
+.service2{
+    width:300px;
+    float:right;
+
+}
+.service3{
+    height:300px;
+	width:900px;
+	margin-bottom:100px;
+}
+.service3 td{
+    text-align:left;
+    width:160px;
+    padding:10px;
+    border:3px solid brown;
+}
+
+/*Contact page*/
+
+.contact1{
+    height:350px;
+    text-align:center;
+}
+.contact1 td{
+    width:150px;
+    height:100px;
+    color:white;
+    border:3px solid brown;
+}

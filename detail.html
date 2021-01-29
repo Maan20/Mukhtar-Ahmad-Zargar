@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title> Details </title>
+	
+	<link href="mystyle.css" type="text/css" rel="stylesheet">
+	
+</head><body>
+<div class="top">
+    Contact Us +91 9697982520 / 01 | Maanhospital.com 
+    </div>
+<div class="logo">
+        <img src="img/logo.jpg" height="140px" width="260px" align=left margin-top="-5px">   
+        <ul align=center><font color=#green size="6px">
+            <li> Maan Hospital Patiala     </li>
+            Bawanigrah Road Patiala Punjab   
+        </font></ul></div>
+    <div class="menu" >
+    <span>Maan Hospital</span>
+    <ul>
+                            <li><a href="index.html">HOME                      </a>                </li>
+							<li><a href="about.html">ABOUT US    </a>                </li>
+							<li><a href="service.html" >SERVICE   </a>                </li>
+							<li><a href="service.html">DOCTORS                   </a>               <li>
+							<li><a href="contact.html">CONTACT US               </a>               </li>
+   </ul>
+		</div>			
+		<div class="side">
+		    <ul>
+		        <li><a href="patient.html">   Patient                     </a></li>
+		        <li><a href="bill.html">      Bill Payment                </a></li>
+		        <li><a href="detail.html">    Details                     </a></li>
+
+		    </ul></div>
+<div class="detail">
+    <fieldset>
+        <legend>Get Detail</legend>
+        <h4>Get Detail Of Patient, Doctor or Bill.
+    <br><b>Note</b>: Bill and Patient Detail will only displayed if a patient is already registered.</h4><hr>
+    <font size = 34px>
+        
+             <form  action="patientdetail.php" method="post" > 
+Patient :
+    <input type="number" name="reg" required placeholder="Enter 6 Digit Reg. No"  maxlength="6"><br>
+             <input type="submit" name="patientdetail" value="Get Detail" ><br>
+    </form><hr>
+	<form  action="bill.php" method="post">
+Bill :
+            <input type="number" name="reg" required placeholder="Enter BILL NO Or Patient's Reg No."  maxlength="6">
+<br>
+            <input type="submit" name="bill" value="Get Detail">
+ </form><br><hr>
+ <form  action="doctordetail.php" method="post">
+Doctor:     
+                     <select NAME = "tag">
+                    <option value="151" > Dr. John         </option>
+                    <option value="152">  Dr. Arjun        </option>
+                    <option value="153">  Dr. Armaan        </option>
+                    <option value="154">  Dr. Gill          </option>
+                    <option value="155">  Dr. Sanjay        </option>
+                    <option value="156">  Dr. Bean          </option>
+                    <option value="157">  Dr. Kajol         </option>          
+            </select><br>
+  
+            <input type="submit" name="doc" value="Get Detail" align=right>
+</form>
+</font>
+</fieldset>
+</div>
+    <div class="footer">
+                  <table  cellspacing=20px font color=white align=center><tr><td>
+                    <font color=white size=4px>
+                    <h3>Locate Us</h3><b> 
+                  NH - 7, Near Patiala .<br>
+                  Vill. XYZ,<br>
+                  Tehsil. Patiala (M)<br>
+                  District Patiala,<br>
+                  Pin 147001, (Punjab)
+                  </b></font></td>
+                                        <td>
+                                        <font color=white size="4px">
+                                            <b> <h3>Time Table</h3>
+                                        Our activities24/7 Open<br>
+                                        Visitors09:00am - 04:00pm<br>
+                                        Dispensary24/7 Open<br>
+                                        Ambulance24/7 Open<br>
+                                        Security team  24/7
+                                        </b></font><td></tr></table>
+              <h5 align=left> Website Developed by : MAZ. Contents are being provided by Maan Hospital </h5>                
+    </div>
+</body>
+</html>
